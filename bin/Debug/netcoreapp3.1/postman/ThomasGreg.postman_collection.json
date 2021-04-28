@@ -1,0 +1,306 @@
+{
+	"info": {
+		"_postman_id": "6a02facd-0b78-4766-b731-34b0a59b5c19",
+		"name": "ThomasGreg",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CLIENTE-GET",
+			"protocolProfileBehavior": {
+				"followAuthorizationHeader": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRob21hc2dyZWciLCJuYmYiOjE1ODQ5MTczMjcsImV4cCI6MTU4NDkyNDUyNywiaWF0IjoxNTg0OTE3MzI3fQ.f0bHpk_tShztppvMypKVWW2lIvJtPYPbpA9x9AH8994",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:5001/api/cliente/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"cliente",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CLIENTE-POST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRob21hc2dyZWciLCJuYmYiOjE1ODQ5MTczMjcsImV4cCI6MTU4NDkyNDUyNywiaWF0IjoxNTg0OTE3MzI3fQ.f0bHpk_tShztppvMypKVWW2lIvJtPYPbpA9x9AH8994",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Nome\" : \"João da Silva\",\n\t\"Email\" : \"joão@email.com\",\n\t\"Logotipo\" :\t\"0000000000000000111011110001000000000000000000100000000001001111000000000000000000000000000000000001111100000000000000000000001000000000001111111000000000000000000000000000000000111111100000000000000000000000000000000001111100000000000000000000000000000000000111111000000000000000000000000000000000011111100000000000000000000000000000000000011100000000000000000000000000000000000000110000000000000000000000000000000000000111000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\"\n}\n\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/cliente/post/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"cliente",
+						"post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CLIENTE-PUT",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRob21hc2dyZWciLCJuYmYiOjE1ODQ5MTczMjcsImV4cCI6MTU4NDkyNDUyNywiaWF0IjoxNTg0OTE3MzI3fQ.f0bHpk_tShztppvMypKVWW2lIvJtPYPbpA9x9AH8994",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Nome\" : \"João da Silva Pereira\",\n\t\"Email\" : \"postman@email.com\",\n\t\"Logotipo\" :\t\"0000000000000000111011110001000000000000000000100000000001001111000000000000000000000000000000000001111100000000000000000000001000000000001111111000000000000000000000000000000000111111100000000000000000000000000000000001111100000000000000000000000000000000000111111000000000000000000000000000000000011111100000000000000000000000000000000000011100000000000000000000000000000000000000110000000000000000000000000000000000000111000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\"\n}\n\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/cliente/put/5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"cliente",
+						"put",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CLIENTE-DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRob21hc2dyZWciLCJuYmYiOjE1ODQ5MTczMjcsImV4cCI6MTU4NDkyNDUyNywiaWF0IjoxNTg0OTE3MzI3fQ.f0bHpk_tShztppvMypKVWW2lIvJtPYPbpA9x9AH8994",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/cliente/delete/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"cliente",
+						"delete",
+						"1"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LOGRADOURO-GET",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRob21hc2dyZWciLCJuYmYiOjE1ODQ5MTczMjcsImV4cCI6MTU4NDkyNDUyNywiaWF0IjoxNTg0OTE3MzI3fQ.f0bHpk_tShztppvMypKVWW2lIvJtPYPbpA9x9AH8994",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:5001/api/logradouro/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"logradouro",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LOGRADOURO-POST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRob21hc2dyZWciLCJuYmYiOjE1ODQ5MTczMjcsImV4cCI6MTU4NDkyNDUyNywiaWF0IjoxNTg0OTE3MzI3fQ.f0bHpk_tShztppvMypKVWW2lIvJtPYPbpA9x9AH8994",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"ClienteId\" : 1,\n\t\"Endereco\" : \"Av. Paulista, nº 631 - São Paulo\"\n}\n\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/logradouro/post/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"logradouro",
+						"post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LOGRADOURO-PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"ClienteId\" : 1,\n\t\"Endereco\" : \"Av. Tiete, nº 631 - São Paulo\"\n}\n\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/logradouro/put/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"logradouro",
+						"put",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LOGRADOURO-DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Av. Paulista, nº 631 - São Paulo",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:5001/api/logradouro/delete/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"logradouro",
+						"delete",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-TOKEN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"thomasgreg\",\"password\":\"sons\"}  ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/token/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"token",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
