@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\ClienteApi\\Api.Cliente.csproj": {}
+    "C:\\Dev\\cartola\\Api.Cliente.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\ClienteApi\\Api.Cliente.csproj": {
+    "C:\\Dev\\cartola\\Api.Cliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\ClienteApi\\Api.Cliente.csproj",
+        "projectUniqueName": "C:\\Dev\\cartola\\Api.Cliente.csproj",
         "projectName": "Api.Cliente",
-        "projectPath": "C:\\Dev\\ClienteApi\\Api.Cliente.csproj",
+        "projectPath": "C:\\Dev\\cartola\\Api.Cliente.csproj",
         "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\ClienteApi\\obj\\",
+        "outputPath": "C:\\Dev\\cartola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config"

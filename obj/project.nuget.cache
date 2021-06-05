@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PRmpl5tKc6aY+ceNH70sGTmAemobMPU+3nh6gzim7mj77UjIORuZAfCMpY4aMnipHIwYrIegOYp4K+VkePmaKA==",
+  "dgSpecHash": "/G4Au4G8rEMxrWx+A8WaNa/ceNrd5lwhKX18m+RYM/qamdOpezpDzwi9cD4V3AOJFQYfFJl4piJeQM5OIN7QXQ==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\ClienteApi\\Api.Cliente.csproj",
+  "projectFilePath": "C:\\Dev\\cartola\\Api.Cliente.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
