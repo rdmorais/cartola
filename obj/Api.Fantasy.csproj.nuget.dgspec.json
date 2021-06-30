@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\cartola\\Api.Fantasy.csproj": {}
+    "C:\\Dev\\fantasy-api\\Api.Fantasy.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\cartola\\Api.Fantasy.csproj": {
+    "C:\\Dev\\fantasy-api\\Api.Fantasy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\cartola\\Api.Fantasy.csproj",
+        "projectUniqueName": "C:\\Dev\\fantasy-api\\Api.Fantasy.csproj",
         "projectName": "Api.Fantasy",
-        "projectPath": "C:\\Dev\\cartola\\Api.Fantasy.csproj",
+        "projectPath": "C:\\Dev\\fantasy-api\\Api.Fantasy.csproj",
         "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\cartola\\obj\\",
+        "outputPath": "C:\\Dev\\fantasy-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config"

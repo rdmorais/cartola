@@ -1,27 +1,25 @@
+
 using System;
-using System.Net;
-using System.Net.Http;
-using ApiCliente.Domain.Models;
-using ApiCliente.Services;
+using ApiFantasy.Domain.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using ApiFantasy.Service.Services;
 
-
-namespace ApiCliente.Controllers
+namespace ApiFantasy.Application.Controllers
 {
     [Route("/api/[controller]")]
     [Authorize()]
-    public class LogradouroController : Controller
+    public class ClienteController : Controller
     {
-        
-        private LogradouroService _logradouroService = new LogradouroService();
+
+        private ClienteService _clienteService = new ClienteService();
 
         [HttpGet]
         public IActionResult Get()
         {   
             try
             {
-                return Ok(_logradouroService.FindAll());
+                return Ok(_clienteService.FindAll());
             }
             catch(Exception e)
             {
@@ -34,7 +32,7 @@ namespace ApiCliente.Controllers
         {
             try
             {
-                var cliente = _logradouroService.FindById(id);
+                var cliente = _clienteService.FindById(id);
                 if (cliente == null) return NotFound();
                 return Ok(cliente);
             }
@@ -45,10 +43,10 @@ namespace ApiCliente.Controllers
         }
 
         [HttpPost]
-        [Route("~/api/logradouro/post")]
-        public IActionResult Post([FromBody]Logradouro logradouro)
+        [Route("~/api/cliente/post")]
+        public IActionResult Post([FromBody]Cliente cliente)
         {
-            var httpObject = _logradouroService.Insert(logradouro);
+            var httpObject = _clienteService.Insert(cliente);
 
             
             if (!httpObject.Sucesso)
@@ -62,10 +60,10 @@ namespace ApiCliente.Controllers
         }
 
         [HttpPut]
-        [Route("~/api/logradouro/put/{id}")]
-        public IActionResult Put([FromBody]Logradouro logradouro, int id)
+        [Route("~/api/cliente/put/{id}")]
+        public IActionResult Put([FromBody]Cliente cliente, int id)
         {
-            var httpObject = _logradouroService.Update(logradouro,id);
+            var httpObject = _clienteService.Update(cliente,id);
             
             if (!httpObject.Sucesso)
             {
@@ -78,10 +76,10 @@ namespace ApiCliente.Controllers
         }
 
         [HttpDelete]
-        [Route("~/api/logradouro/delete/{id}")]
+        [Route("~/api/cliente/delete/{id}")]
         public IActionResult Delete(int id)
         {
-            var httpObject = _logradouroService.Delete(id);
+            var httpObject = _clienteService.Delete(id);
             
             if (!httpObject.Sucesso)
             {

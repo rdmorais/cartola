@@ -1,6 +1,6 @@
 using System;
 
-namespace ApiCliente
+namespace ApiFantasy
 {
     public class Settings
     {

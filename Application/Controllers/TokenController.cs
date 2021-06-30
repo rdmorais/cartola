@@ -1,10 +1,9 @@
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using ApiCliente.Repositories;
-using ApiCliente.Services;
-using ApiCliente.Domain.Models;
+using ApiFantasy.Domain.Models;
+using ApiFantasy.Service.Services;
+using ApiFantasy.Infra.Repository;
 
-namespace ApiCliente.Controllers
+namespace ApiFantasy.Application.Controllers
 {
     [Route("/api/[controller]")]
     public class TokenController : Controller

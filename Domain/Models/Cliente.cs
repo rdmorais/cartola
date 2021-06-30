@@ -1,7 +1,7 @@
 
 using System.Collections.Generic;
 
-namespace ApiCliente.Domain.Models
+namespace ApiFantasy.Domain.Models
 {
     public class Cliente
     {

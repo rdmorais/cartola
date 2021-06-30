@@ -6301,11 +6301,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\cartola\\Api.Cliente.csproj",
-      "projectName": "Api.Cliente",
-      "projectPath": "C:\\Dev\\cartola\\Api.Cliente.csproj",
+      "projectUniqueName": "C:\\Dev\\fantasy-api\\Api.Fantasy.csproj",
+      "projectName": "Api.Fantasy",
+      "projectPath": "C:\\Dev\\fantasy-api\\Api.Fantasy.csproj",
       "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\cartola\\obj\\",
+      "outputPath": "C:\\Dev\\fantasy-api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config"

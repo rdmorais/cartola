@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
-using ApiCliente.Domain.Models;
+using ApiFantasy.Domain.Models;
 
-namespace ApiCliente.Repositories
+namespace ApiFantasy.Infra.Repository
 {
      public static class UserRepository
     {

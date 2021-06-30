@@ -1,7 +1,7 @@
-using ApiCliente.Domain.Models;
+using ApiFantasy.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ApiCliente.Persistence.Contexts
+namespace ApiFantasy.Infra.Context
 {
     public class AppDbContext : DbContext
     {

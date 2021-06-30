@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/G4Au4G8rEMxrWx+A8WaNa/ceNrd5lwhKX18m+RYM/qamdOpezpDzwi9cD4V3AOJFQYfFJl4piJeQM5OIN7QXQ==",
+  "dgSpecHash": "kaOCw6bxfTDFypYjClAbPDAmcarlPDDKEa2ZPShl4bvklbJNc51gfiDu+WUA7l3Whi1sE29hflz1+SDW0oVd3Q==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\cartola\\Api.Cliente.csproj",
+  "projectFilePath": "C:\\Dev\\fantasy-api\\Api.Fantasy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

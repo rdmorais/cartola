@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using ApiCliente.Domain.Models;
-using ApiCliente.Persistence.Contexts;
+using ApiFantasy.Domain.Models;
+using ApiFantasy.Infra.Context;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
-namespace ApiCliente.Services
+namespace ApiFantasy.Service.Services
 {
     public class ClienteService
     {

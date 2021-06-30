@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ApiCliente": {
+    "ApiFantasy": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",

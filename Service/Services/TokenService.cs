@@ -3,9 +3,9 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
-using ApiCliente.Domain.Models;
+using ApiFantasy.Domain.Models;
 
-namespace ApiCliente.Services
+namespace ApiFantasy.Service.Services
 {
     public static class TokenService
     {

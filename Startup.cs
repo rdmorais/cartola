@@ -14,7 +14,7 @@ using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 
-namespace ApiCliente
+namespace ApiFantasy
 {
     public class Startup
     {
