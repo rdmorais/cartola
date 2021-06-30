@@ -9,10 +9,11 @@ namespace ApiFantasy.Infra.Context
         public AppDbContext() { }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlServer("Data Source=(local); Initial Catalog=ThomasGreg; Integrated Security=true;");
+            => options.UseSqlServer("Data Source=(local); Initial Catalog=FANTASYDB; Integrated Security=true;");
 
         public DbSet<Cliente> Clientes {get; set;}
         public DbSet<Logradouro> Logradouros {get; set;}
+        public DbSet<User> Users {get; set;}
 
         protected override void OnModelCreating (ModelBuilder builder){
             base.OnModelCreating(builder);
@@ -34,6 +35,13 @@ namespace ApiFantasy.Infra.Context
             builder.Entity<Logradouro> ().HasKey (p => p.Id);
             builder.Entity<Logradouro> ().Property (p => p.Id).IsRequired ().ValueGeneratedOnAdd();
             builder.Entity<Logradouro> ().Property (p => p.Endereco).IsRequired ().HasMaxLength(30);
+
+            // TABLE User
+
+            builder.Entity<User> ().ToTable ("User");
+            builder.Entity<User> ().HasKey (p => p.Id);
+            builder.Entity<User> ().Property (p => p.Id).IsRequired ().ValueGeneratedOnAdd();
+            builder.Entity<User> ().Property (p => p.Username).IsRequired ();
 
         }
     }
